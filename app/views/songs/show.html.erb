@@ -1,0 +1,13 @@
+<h1><%= @song.title %>'s Information</h1>
+
+<p>Title: <%= @song.title %></p>
+
+<p>Artist: <%= @song.artist_name %></p>
+
+<p>Genre: <%= @song.genre %></p>
+
+<p>Year: <%= @song.release_year %></p>
+
+<p>Released? <%= @song.released? %></p>
+
+<%= link_to "Return to All Songs", songs_path%>
